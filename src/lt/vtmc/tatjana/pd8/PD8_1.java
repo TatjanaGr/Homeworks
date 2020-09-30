@@ -13,9 +13,9 @@ public class PD8_1 {
 		price[4] = 175.99;
 		price[5] = 214.99;
 
-		//for (double i : price) {
-		//	System.out.printf("%s\n", i + "    ");
-		//}
+		for (double i : price) {
+			System.out.printf("%s\n", i + "    ");
+		}
 
 		for (int i = 0; i < price.length; i++)
 			sum = sum + price[i];
