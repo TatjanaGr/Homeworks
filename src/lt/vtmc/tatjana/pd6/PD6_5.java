@@ -17,7 +17,7 @@ public class PD6_5 {
 
 		double time = (3600 * m / 1000) / v;
 		System.out.print("Automobilis tunelį pravažiuos per ");
-		System.out.printf("%4.2f", time);
+		System.out.printf("%.2f", time);
 		System.out.print(" s");
 
 	}
